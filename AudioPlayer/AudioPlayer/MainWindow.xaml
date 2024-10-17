@@ -1,0 +1,14 @@
+﻿<Window x:Class="AudioPlayer.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AudioPlayer"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="PlayButton" Content="PlayButton" HorizontalAlignment="Left" Margin="99,73,0,0" VerticalAlignment="Top" Click="PlayButton_Click" Height="108" Width="145"/>
+        <Button x:Name="StopButton" Content="StopButton" HorizontalAlignment="Left" Margin="305,73,0,0" VerticalAlignment="Top" Click="StopButton_Click" Height="108" Width="159"/>
+
+    </Grid>
+</Window>
